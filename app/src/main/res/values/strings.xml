@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Quizer</string>
+    <string name="salutation">Hi user</string>
+    <string name="star_numbers">200</string>
+    <string name="create_quiz">create quiz</string>
+    <string name="single_player">single player</string>
+    <string name="quiz_categories">quiz categories</string>
+    <string name="see_all">See all</string>
+    <string name="science">Science</string>
+    <string name="complete_levels">Complete All levels \nEarn 1000Coins</string>
+    <string name="start_now">Start now</string>
+</resources>
