@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Quizer</string>
-    <string name="salutation">Hi user</string>
+    <string name="salutation">Hello, babe</string>
     <string name="star_numbers">200</string>
     <string name="create_quiz">create quiz</string>
     <string name="single_player">single player</string>
@@ -9,4 +9,19 @@
     <string name="science">Science</string>
     <string name="complete_levels">Complete All levels \nEarn 1000Coins</string>
     <string name="start_now">Start now</string>
+    <string name="home">Home</string>
+    <string name="board">Board</string>
+    <string name="favourite">Favourite</string>
+    <string name="profile">Profile</string>
+    <string name="multiplayer">Multi player</string>
+    <string name="history">History</string>
+    <string name="sport">Sport</string>
+    <string name="art">Art</string>
+    <string name="weekly">Weekly</string>
+    <string name="_1">1</string>
+    <string name="top_one_title">title</string>
+    <string name="_3">3</string>
+    <string name="_2">2</string>
+    <string name="monthly">Monthly</string>
+    <string name="all_time">All time</string>
 </resources>

@@ -1,4 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/btnHome"
+        android:icon="@drawable/bottom_btn1"
+        android:title="@string/home"
+        app:cnb_backgroundColor="@color/blue"
+        app:cnb_iconColor="@color/white" />
+    <item
+        android:id="@+id/btnBoard"
+        android:icon="@drawable/bottom_btn2"
+        android:title="@string/board"
+        app:cnb_backgroundColor="@color/blue"
+        app:cnb_iconColor="@color/white" />
+    <item
+        android:id="@+id/btnFavourite"
+        android:icon="@drawable/bottom_btn3"
+        android:title="@string/favourite"
+        app:cnb_backgroundColor="@color/blue"
+        app:cnb_iconColor="@color/white" />
+    <item
+        android:id="@+id/btnProfile"
+        android:icon="@drawable/bottom_btn4"
+        android:title="@string/profile"
+        app:cnb_backgroundColor="@color/blue"
+        app:cnb_iconColor="@color/white" />
 </menu>
