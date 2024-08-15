@@ -43,7 +43,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button2"
+        android:id="@+id/btnBack"
         android:layout_width="130dp"
         style="@android:style/Widget.Button"
         android:background="@drawable/blue_bg"

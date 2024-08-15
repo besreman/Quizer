@@ -26,7 +26,7 @@ class QuestionActivity : AppCompatActivity(), QuestionAdapter.score {
 
         super.onCreate(savedInstanceState)
         binding = ActivityQuestionBinding.inflate(layoutInflater)
-        setContentView(R.layout.activity_question)
+        setContentView(binding.root)
 
         window.setFlags(
             WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS,
@@ -114,9 +114,9 @@ class QuestionActivity : AppCompatActivity(), QuestionAdapter.score {
 
 
 
-    override var allScore: Int
-        get() = TODO("Not yet implemented")
-        set(value) {}
+    override var allScore: Int = 0
+        get() = field
+        set(value) { field = value}
 
     override fun amount(number:Int, clickedAnswer:String){
         this.allScore += number

@@ -23,9 +23,9 @@ class MainActivity : AppCompatActivity() {
 
         binding.apply {
             singlePlayerBtn.setOnClickListener{
-            val intent = Intent(this@MainActivity, LeaderBoardActivity::class.java)
-                intent.putParcelableArrayListExtra("list",ArrayList(questionList()))
-                startActivity(intent)
+            val intent = Intent(this@MainActivity, QuestionActivity::class.java)
+            intent.putParcelableArrayListExtra("list",ArrayList(questionList()))
+            startActivity(intent)
             }
 
             bottomMenu.setItemSelected(R.id.btnHome)
@@ -90,6 +90,19 @@ class MainActivity : AppCompatActivity() {
                 "Q.4",
                 null)
         )
+        questions.add(
+            Question(4,
+                "which one has the greatest average depth?",
+                "Pacific ocean",
+                "Atlantic Ocean",
+                "Indian ocean",
+                "Southern ocean",
+                "d",
+                5,
+                "Q.4",
+                null)
+        )
+
 
         return questions
     }
