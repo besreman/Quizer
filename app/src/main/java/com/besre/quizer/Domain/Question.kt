@@ -3,6 +3,7 @@ package com.besre.quizer.Domain
 import android.os.Parcel
 import android.os.Parcelable
 
+// data class for modelling question.
 data class Question(val id:Int,
                     val question:String?,
                     val answer_1:String?,
